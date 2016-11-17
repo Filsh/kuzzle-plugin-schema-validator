@@ -2,13 +2,16 @@
   "name": "kuzzle-plugin-schema-validator",
   "version": "0.2.1",
   "description": "Validate input data before writing it to db or publishing",
-  "main": "lib",
+  "main": "./lib/index.js",
   "author": {
     "name": "farwayer",
     "email": "farwayer@gmail.com"
   },
   "license": "WTFPL",
-  "repository": "github:farwayer/kuzzle-plugin-schema-validator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Filsh/kuzzle-plugin-schema-validator.git"
+  },
   "keywords": [
     "kuzzle",
     "plugin",
